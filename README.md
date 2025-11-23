@@ -2,7 +2,7 @@
 
 A full-stack hybrid application for analyzing and visualizing chemical equipment data. This project demonstrates a unified system where a single **Django Backend** serves data to both a **React Web Client** and a **PyQt5 Desktop Client**, ensuring real-time synchronization and data parity across platforms.
 
-## 🏗 Architecture
+## Architecture
 
 - **Backend:** Django + Django REST Framework (DRF)
   - Handles data parsing (Pandas), storage (SQLite), and authentication.
@@ -16,7 +16,7 @@ A full-stack hybrid application for analyzing and visualizing chemical equipment
 
 ---
 
-## 🚀 Features
+## Features
 
 1.  **Universal Authentication:**
     - Secure Login & Signup (Basic Auth).
@@ -35,7 +35,7 @@ A full-stack hybrid application for analyzing and visualizing chemical equipment
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -86,7 +86,7 @@ python main.py
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 /ChemicalVisualizer
 ├── backend/                 # Django Project
@@ -100,14 +100,14 @@ python main.py
     └── main.py              # Desktop Entry Point
 ```
 
-## 🧪 Sample Data
+## Sample Data
 Use the provided `sample_equipment_data.csv` or generated test files to verify functionality.
 **Columns Required:** `Equipment Name`, `Type`, `Flowrate`, `Pressure`, `Temperature`
 
-## 🎥 Demo Highlights
+## Demo Highlights
 - **Cross-Platform Sync:** Upload on Web -> Instant appearance in Desktop History.
 - **Secure Access:** Private user sessions protected by authentication.
 - **Data Export:** Professional PDF reports generated server-side.
 
 ---
-**Author:** [Your Name]
+**Author:** Alisha Ahmad
