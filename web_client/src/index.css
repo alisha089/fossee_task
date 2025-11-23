@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Purple Gradient */
+  min-height: 100vh;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-card h2 {
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.custom-input {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+  transition: all 0.3s;
+}
+
+.custom-input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  outline: none;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.toggle-text {
+  margin-top: 20px;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.toggle-link {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 5px;
+}
